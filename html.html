@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farris</title>
+  <style>
+
+
+  </style>
+
+  <style>
+    @keyframes Box2 {
+      0% {
+        background-color: greenyellow;
+        color: palegreen
+      }
+
+      25% {
+        background-color: magenta;
+        color: chocolate;
+        border-radius: 56px
+      }
+
+      50% {
+        background-color: blueviolet;
+        color: purple;
+        border-radius: 60px;
+      }
+
+      75% {
+        background-color: khaki;
+        color: lightcoral;
+        border-radius: 36px;
+      }
+
+      100% {
+        background-color: peachpuff;
+        color: hotpink;
+        border-radius: 10px;
+      }
+    }
+
+    @keyframes Box3 {
+      0% {
+        background-color: olive;
+        color: indianred
+      }
+
+      25% {
+        background-color: teal;
+        color: violet;
+        border-radius: 78px
+      }
+
+      50% {
+        background-color: cornflowerblue;
+        color: crimson;
+        border-radius: 65px;
+      }
+
+      75% {
+        background-color: lawngreen;
+        color: cadetblue;
+        border-radius: 20px;
+      }
+
+      100% {
+        background-color: plum;
+        color: hotpink;
+        border-radius: 10px;
+      }
+    }
+
+    @keyframes Box4 {
+      0% {
+        background-color: orchid;
+        color: darkgoldenrod
+      }
+
+      25% {
+        background-color: darkred;
+        color: rosybrown;
+        border-radius: 54px
+      }
+
+      50% {
+        background-color: wheat;
+        color: crimson;
+        border-radius: 32px;
+      }
+
+      75% {
+        background-color: lawngreen;
+        color: lavenderblush;
+        border-radius: 15px;
+      }
+
+      100% {
+        background-color: darkturquoise;
+        color: honeydew;
+        border-radius: 60px;
+      }
+    }
+
+    @keyframes Box5 {
+      0% {
+        background-color: salmon;
+        color: goldenrod
+      }
+
+      25% {
+        background-color: burlywood;
+        color: royalblue;
+        border-radius: 53px
+      }
+
+      50% {
+        background-color: cyan;
+        color: dimgray;
+        border-radius: 56px;
+      }
+
+      75% {
+        background-color: lightsteelblue;
+        color: navajowhite;
+        border-radius: 24px;
+      }
+
+      100% {
+        background-color: dodgerblue;
+        color: green;
+        border-radius: 18px;
+      }
+    }
+
+    @keyframes Box6 {
+      0% {
+        background-color: hotpink;
+        color: red
+      }
+
+      25% {
+        background-color: rebeccapurple;
+        color: goldenrod;
+        border-radius: 56px
+      }
+
+      50% {
+        background-color: orange;
+        color: indianred;
+        border-radius: 40px;
+      }
+
+      75% {
+        background-color: lightsteelblue;
+        color: darkgreen;
+        border-radius: 55px;
+      }
+
+      100% {
+        background-color: brown;
+        color: khaki;
+        border-radius: 90px;
+      }
+    }
+
+    @keyframes Box7 {
+      0% {
+        background-color: royalblue;
+        color: royalblue
+      }
+
+      25% {
+        background-color: gray;
+        color: rosybrown;
+        border-radius: 54px
+      }
+
+      50% {
+        background-color: cyan;
+        color: orange;
+        border-radius: 32px;
+      }
+
+      75% {
+        background-color: lawngreen;
+        color: lightpink;
+        border-radius: 15px;
+      }
+
+      100% {
+        background-color: firebrick;
+        color: brown;
+        border-radius: 60px;
+      }
+    }
+
+    @keyframes Box8 {
+      0% {
+        background-color: orchid;
+        color: darkgoldenrod
+      }
+
+      25% {
+        background-color: darkred;
+        color: rosybrown;
+        border-radius: 54px
+      }
+
+      50% {
+        background-color: wheat;
+        color: crimson;
+        border-radius: 32px;
+      }
+
+      75% {
+        background-color: lawngreen;
+        color: lavenderblush;
+        border-radius: 15px;
+      }
+
+      100% {
+        background-color: darkturquoise;
+        color: honeydew;
+        border-radius: 60px;
+      }
+    }
+
+    @keyframes Box9 {
+      0% {
+        background-color: black;
+        color: red
+      }
+
+      25% {
+        background-color: darkorange;
+        color: yellowgreen;
+        border-radius: 54px
+      }
+
+      50% {
+        background-color: lightgrey;
+        color: lightgray;
+        border-radius: 32px;
+      }
+
+      75% {
+        background-color: gold;
+        color: royalblue;
+        border-radius: 15px;
+      }
+
+      100% {
+        background-color: darkolivegreen;
+        color: hotpink;
+        border-radius: 60px;
+      }
+    }
+
+    @keyframes Box10 {
+      0% {
+        background-color: indigo;
+        color: ivory
+      }
+
+      25% {
+        background-color: palevioletred;
+        color: peru;
+        border-radius: 54px
+      }
+
+      50% {
+        background-color: orangered;
+        color: chocolate;
+        border-radius: 32px;
+      }
+
+      75% {
+        background-color: blueviolet;
+        color: hotpink;
+        border-radius: 15px;
+      }
+
+      100% {
+        background-color: yellow;
+        color: grey;
+        border-radius: 60px;
+      }
+    }
+
+    .button {
+      border-radius: 50%;
+      background-color: blue;
+      color: green;
+    }
+
+    .box {
+      position: relative;
+      animation: Box1 5s infinite;
+      animation-play-state: paused;
+      height: 80px;
+      font-size: 80px;
+
+    }
+
+    .box2 {
+      position: relative;
+      animation: Box2 5s infinite;
+      animation-play-state: paused;
+      height: 80px;
+      font-size: 80px;
+
+    }
+
+    .box.horizTranslate {
+      animation-play-state: running;
+    }
+    .box2.horizTranslate {
+      animation-play-state: running;
+    }
+
+    @keyframes Box1 {
+      0% {
+        background-color: yellow;
+        color: blue;
+      }
+
+      25% {
+        background-color: navy;
+        color: gray;
+        border-radius: 12px;
+      }
+
+      50% {
+        background-color: aqua;
+        color: chartreuse;
+        border-radius: 40px;
+      }
+
+      75% {
+        background-color: khaki;
+        color: lightcoral;
+        border-radius: 34px;
+      }
+
+      100% {
+        background-color: peachpuff;
+        color: hotpink;
+        border-radius: 62px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <body>
+    <!-- Inline Styling -->
+    <button class="button" onclick='toggleTransition()'>Button toggler</button>
+    <div style="background: red; width: 100%; text-align: center;padding: 5px 0;">
+      <div style="width: 200px;
+    font-size: 50px; display:inline-block">navbar</div>
+      <div class="box"
+        style="display:inline-block; width:80px; height:80px; background: black;animation-name:Box1;animation-duration: 10s;">
+      </div>
+    </div>
+    <div style="background: green; width: 100%; text-align: center; align-items: center;padding: 200px 0;">
+      <div style="display:inline-block;font-size: 50px;">Place For Introdctory Image/Video</div>
+      <div class="box2"
+        style="display:inline-block;align-items: center; width:80px; height:80px; background: white;animation-name: Box2;animation-duration: 10s;">
+      </div>
+    </div>
+    <div
+      style="background: blue; width: 50%; float: right; text-align: center;padding: 200px 0;animation-name: Box2;animation-duration: 10s">
+      <div style="display:inline-block;
+    font-size: 50px;">Section 2</div>
+      <div
+        style="display:inline-block;align-items: center; width:80px; height:80px; background: yellow;animation-name: Box3;animation-duration: 10s">
+      </div>
+    </div>
+    <div style="background: red; width: 50%; text-align: center;padding: 200px 0;">
+      <div style="display:inline-block;animation-name: Box4;animation-duration: 10s;
+    font-size: 50px;">Section 3</div>
+      <div
+        style="display:inline-block;align-items: center; width:80px; height:80px; background: purple;animation-name: Box4;animation-duration: 10s">
+      </div>
+    </div>
+    <div style="background: orange; width: 100%; text-align: center;padding: 100px 0;">
+      <div style="display:inline-block; font-size: 50px;animation-name: Box5;animation-duration: 10s">Footer</div>
+      <div
+        style="display:inline-block;align-items: center; width:80px; height:80px; background: green;animation-name: Box5;animation-duration: 10s">
+      </div>
+    </div>
+
+    <!-- Try to make the same as The previous section without Inline Styling -->
+
+    <div style="background: red; width: 100%; text-align: center;padding: 5px 0;">
+      <div style="display:inline-block;
+    font-size: 50px;">navbar</div>
+      <div
+        style="display:inline-block;align-items: center; width:80px; height:80px; background: blue;animation-name: Box6;animation-duration: 10s">
+      </div>
+    </div>
+    <div style="background: green; width: 100%; text-align: center;padding: 200px 0;">
+      <div style="display:inline-block;font-size: 50px;">Place For Introdctory Image/Video</div>
+      <div
+        style="display:inline-block;align-items: center; width:80px; height:80px; background: black;animation-name: Box7;animation-duration: 10s">
+      </div>
+    </div>
+    <div
+      style="background: blue; width: 50%; float: right; text-align: center;padding: 200px 0;animation-name: Box9;animation-duration: 10s">
+      <div style="display:inline-block;
+    font-size: 50px;">Section 2</div>
+      <div style="display:inline-block;align-items: center; width:80px; height:80px; background: red;"></div>
+    </div>
+    <div
+      style="background: red; width: 50%; text-align: center;padding: 200px 0;animation-name: Box8;animation-duration: 10s">
+      <div style="display:inline-block;
+    font-size: 50px;">Section 3</div>
+      <div
+        style="display:inline-block;align-items: center; width:80px; height:80px; background: white;animation-name: Box8;animation-duration: 10s">
+      </div>
+    </div>
+    <div
+      style="background: orange; width: 100%; text-align: center;padding: 100px 0;animation-name: Box10;animation-duration: 10s">
+      <div style="display:inline-block; font-size: 50px;">Footer</div>
+      <div style="display:inline-block;align-items: center; width:80px; height:80px; background: green"></div>
+    </div>
+
+    <script>
+
+      var boxOne = document.getElementsByClassName('box')[0];
+      var boxTwo = document.getElementsByClassName('box2')[0];
+      var running = false;
+
+      var toggleTransition = function () {
+        if (!running) {
+          boxOne.classList.add('horizTranslate');
+          boxTwo.classList.add('horizTranslate');
+
+        } else {
+          boxOne.classList.remove('horizTranslate');
+          boxTwo.classList.remove('horizTranslate');
+        }
+
+        running = !running;
+      }
+    </script>
+
+
+  </body>
+
+</html>
+</body>
+
+</html>
